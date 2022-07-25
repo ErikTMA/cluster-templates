@@ -4,13 +4,13 @@ questions:
   label: "Cluster Name"
   required: true
   type: string
-  group: "General"
+  group: "Cluster General"
 
 - variable: cloudCredentialSecretName
   description: "CloudCredentialName for provisioning cluster"
   label: "CloudCredential Name"
   type: cloudcredential
-  group: "General"
+  group: "Cluster General"
 
 - variable: cluster.cni
   description: "Select cluster CNI - if in doubt, choose cilium"
@@ -21,6 +21,7 @@ questions:
   - calico
   default: cilium
   required: true
+  group: "Cluster General"
 
 - variable: cluster.region
   description: "Set the region of the cluster"
@@ -32,6 +33,7 @@ questions:
   - ams3
   default: fra1
   required: true
+  group: "Cluster General"
 
 
 - variable: cluster.nodes.size
@@ -42,14 +44,14 @@ questions:
   - s-2vcpu-4gb
   - s-4vcpu-8gb
   - s-6vcpu-16gb
-  group: "Node Settings"
+  group: "Cluster Nodes"
 
 - variable: cluster.nodes.count
   description: "Specify node count"
   label: "Node Count"
   type: int
   required: true
-  group: "Node Settings"
+  group: "Cluster Nodes"
 
 - variable: cluster.nodes.os
   description: "Specify node OS"
@@ -61,4 +63,5 @@ questions:
   - ubuntu-22-04-x64
   - centos-7-x64
   required: true
+  group: "Cluster Nodes"
 
