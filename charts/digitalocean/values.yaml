@@ -8,3 +8,4 @@ cluster:
     count: 1
 
 cloudCredentialSecretName: ""
+
