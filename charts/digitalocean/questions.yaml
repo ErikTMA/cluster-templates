@@ -12,6 +12,16 @@ questions:
   type: cloudcredential
   group: "General"
 
+- variable: cluster.cni
+  description: "Select cluster CNI - if in doubt, choose cilium"
+  label: "Cluster CNI"
+  type: enum
+  options:
+  - cilium
+  - calico
+  default: cilium
+  required: true
+
 - variable: cluster.region
   description: "Set the region of the cluster"
   label: "Cluster Region"
@@ -51,3 +61,4 @@ questions:
   - ubuntu-22-04-x64
   - centos-7-x64
   required: true
+

@@ -1,7 +1,8 @@
 apiVersion: v1
-name: TCSKube-do-cluster-template
+name: Trifork Cloud Stack - Digital Ocean Cluster
 description: Cluster Template for Digital Ocean
-version: 0.1.0
+version: 0.1.1
+icon: https://uxwing.com/wp-content/themes/uxwing/download/10-brands-and-social-media/digitalocean.png
 annotations:
   catalog.cattle.io/type: cluster-template
   catalog.cattle.io/namespace: fleet-default
