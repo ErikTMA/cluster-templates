@@ -5,6 +5,18 @@ entries:
       catalog.cattle.io/namespace: fleet-default
       catalog.cattle.io/type: cluster-template
     apiVersion: v1
+    created: "2022-07-25T09:53:49.556691583Z"
+    description: Cluster Template for Digital Ocean
+    digest: 300ccf6b963d5892c413cfbdbd563cb535e154785daef9e6d3d4bcce24af3392
+    icon: https://uxwing.com/wp-content/themes/uxwing/download/10-brands-and-social-media/digitalocean.png
+    name: tcs-do-cluster-template
+    urls:
+    - https://github.com/ErikTMA/cluster-templates/releases/download/tcs-do-cluster-template-0.1.1/tcs-do-cluster-template-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
+      catalog.cattle.io/namespace: fleet-default
+      catalog.cattle.io/type: cluster-template
+    apiVersion: v1
     created: "2022-07-25T09:43:23.731147168Z"
     description: Cluster Template for Digital Ocean
     digest: d1965457aa18440de95cef6a5d4a1ed20280a3db90aa779bc9fc086878310aa9
@@ -13,4 +25,4 @@ entries:
     urls:
     - https://github.com/ErikTMA/cluster-templates/releases/download/tcs-do-cluster-template-0.1.0/tcs-do-cluster-template-0.1.0.tgz
     version: 0.1.0
-generated: "2022-07-25T09:43:23.731155668Z"
+generated: "2022-07-25T09:53:49.556698883Z"
