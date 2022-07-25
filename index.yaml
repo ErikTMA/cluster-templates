@@ -17,6 +17,18 @@ entries:
       catalog.cattle.io/namespace: fleet-default
       catalog.cattle.io/type: cluster-template
     apiVersion: v1
+    created: "2022-07-25T09:31:47.496507625Z"
+    description: Cluster Template for Digital Ocean
+    digest: a1ba66ecc7a8cd168268b5dee54f2876b50e16b9a62891e351b07a9c03e00baa
+    icon: https://uxwing.com/wp-content/themes/uxwing/download/10-brands-and-social-media/digitalocean.png
+    name: Trifork-Cloud-Stack-DigitalOcean-Cluster
+    urls:
+    - https://github.com/ErikTMA/cluster-templates/releases/download/Trifork-Cloud-Stack-DigitalOcean-Cluster-0.1.2/Trifork-Cloud-Stack-DigitalOcean-Cluster-0.1.2.tgz
+    version: 0.1.2
+  - annotations:
+      catalog.cattle.io/namespace: fleet-default
+      catalog.cattle.io/type: cluster-template
+    apiVersion: v1
     created: "2022-07-25T09:13:47.009880063Z"
     description: Cluster Template for Digital Ocean
     digest: f326f87028d95ba737ea6590a827b2aeeacd382154d6c44860c8b781fe692261
@@ -25,4 +37,4 @@ entries:
     urls:
     - https://github.com/ErikTMA/cluster-templates/releases/download/Trifork-Cloud-Stack-DigitalOcean-Cluster-0.1.1/Trifork-Cloud-Stack-DigitalOcean-Cluster-0.1.1.tgz
     version: 0.1.1
-generated: "2022-07-25T09:13:47.009886063Z"
+generated: "2022-07-25T09:31:47.496525425Z"
