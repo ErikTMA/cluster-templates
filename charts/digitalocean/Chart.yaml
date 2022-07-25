@@ -1,7 +1,7 @@
 apiVersion: v1
 name: Trifork-Cloud-Stack-DigitalOcean-Cluster
 description: Cluster Template for Digital Ocean
-version: 0.1.1
+version: 0.1.2
 icon: https://uxwing.com/wp-content/themes/uxwing/download/10-brands-and-social-media/digitalocean.png
 annotations:
   catalog.cattle.io/type: cluster-template
