@@ -1,7 +1,7 @@
 apiVersion: v1
-name: Trifork-Cloud-Stack-DigitalOcean-Cluster
+name: tcs-do-cluster-template
 description: Cluster Template for Digital Ocean
-version: 0.1.2
+version: 0.1.0
 icon: https://uxwing.com/wp-content/themes/uxwing/download/10-brands-and-social-media/digitalocean.png
 annotations:
   catalog.cattle.io/type: cluster-template
