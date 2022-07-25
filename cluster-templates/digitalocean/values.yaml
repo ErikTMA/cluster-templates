@@ -1,0 +1,10 @@
+cluster:
+  name: do-cluster
+  cni: cilium
+  nodes:
+    region: fra1
+    size: s-2vcpu-4gb
+    os: ubuntu-22-04-x64
+    count: 1
+
+cloudCredentialSecretName: ""

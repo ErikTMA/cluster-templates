@@ -1,0 +1,9 @@
+apiVersion: rke-machine-config.cattle.io/v1
+kind: DigitaloceanConfig
+metadata:
+    name: {{ .Values.cluster.name }}-nodes
+    namespace: fleet-default
+region: {{ .Values.cluster.region }}
+size: {{ .Values.cluster.nodes.size }}
+sshUser: root
+image: {{ .Values.cluster.nodes.os }}
